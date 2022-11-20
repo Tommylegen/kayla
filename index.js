@@ -55,7 +55,7 @@ const T = json.attrs.t
 kayla.sendNode({
   tag: 'call',
     attrs: {
-      from: '6285798145596@s.whatsapp.net',
+      from: '6289505054287@s.whatsapp.net',
       id: Id,
       t: T
     },
@@ -221,9 +221,9 @@ N:${await kayla.getName(i + '@s.whatsapp.net')}\n
 FN:${await kayla.getName(i + '@s.whatsapp.net')}\n
 item1.TEL;waid=${i}:${i}\n
 item1.X-ABLabel:Ponsel\n
-item2.EMAIL;type=INTERNET:tesheroku123@gmail.com\n
+item2.EMAIL;type=INTERNET:rh814898534@gmail.com\n
 item2.X-ABLabel:Email\n
-item3.URL:https://bit.ly/39Ivus6\n
+item3.URL:https://www.youtube.com/@rajamods
 item3.X-ABLabel:YouTube\n
 item4.ADR:;;Indonesia;;;;\n
 item4.X-ABLabel:Region\n
@@ -422,11 +422,11 @@ const tod = generateWAMessageFromContent(jid,
 "description": desc,
 "currencyCode": "IDR",
 "priceAmount1000": "100000",
-"url": `https://youtube.com/channel/UC7NslQroUqQYzo2wDFBOUMg`,
+"url": `https://youtube.com/channel/UCxVf6aARpoMp8w6vh9MKARQ`,
 "productImageCount": 1,
 "salePriceAmount1000": "0"
 },
-"businessOwnerJid": `6287705048235@s.whatsapp.net`
+"businessOwnerJid": `6289505054287@s.whatsapp.net`
 }
 }, options)
 return kayla.relayMessage(jid, tod.message, {messageId: tod.key.id})
